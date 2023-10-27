@@ -27,7 +27,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
-    os.chdir(r"V:\sem 5\ST\WEBDEMO")
+    os.chdir(r"V:/sem 5/ST/ST Project/")
     df = pd.read_csv("1.csv", encoding = "ISO-8859-1")
 st.write("""Upload File""")
 st.dataframe(df)
