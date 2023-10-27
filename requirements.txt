@@ -1,6 +1,6 @@
 jajapy==0.10.8
 matplotlib==3.4.3
-numpy==1.25.2
+numpy==1.21.0
 pandas==2.1.2
 plotly==5.18.0
 streamlit==1.27.2
