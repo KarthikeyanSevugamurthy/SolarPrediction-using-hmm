@@ -32,7 +32,7 @@ else:
 st.write("""Upload File""")
 st.dataframe(df)
 def training_test_set(cols, len_seq=14):
-    arr = np.loadtxt('V:/sem 5/ST/WEBDEMO/1.csv', delimiter=',', dtype=str)
+    arr = np.loadtxt('V:/sem 5/ST/ST Project/1.csv', delimiter=',', dtype=str)
     nb_distributions = len(cols)
     arr = arr[:, cols]
     print(arr[0])
