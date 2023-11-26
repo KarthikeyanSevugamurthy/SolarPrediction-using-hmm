@@ -27,12 +27,12 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
-    os.chdir(r"V:/sem 5/ST/ST Project/")
+    
     df = pd.read_csv("1.csv", encoding = "ISO-8859-1")
 st.write("""Upload File""")
 st.dataframe(df)
 def training_test_set(cols, len_seq=14):
-    arr = np.loadtxt('V:/sem 5/ST/ST Project/1.csv', delimiter=',', dtype=str)
+    arr = np.loadtxt('1.csv', delimiter=',', dtype=str)
     nb_distributions = len(cols)
     arr = arr[:, cols]
     print(arr[0])
